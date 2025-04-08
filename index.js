@@ -1,6 +1,6 @@
 /* 1° Desafio DIO (modificado)
 
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois faça com que a mensagem de saída onde: ao informar o nível mostre a quantidade de XP necessária para chegar mais o nome do herói :
+Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois faça com que a mensagem de saída onde: ao informar o nível mostre a quantidade de XP necessária para chegar, mais o nome do herói :
 
 Se XP for menor do que 1.000 = Ferro
 Se XP for entre 1.001 e 2.000 = Bronze
@@ -78,7 +78,7 @@ Ao final deve se exibir uma mensagem:
 */
 
 let nome_do_heroi = "Joás"
-let xp = 12000
+let xp = 9999
 
 if (xp < 1000){
 console.log("O Herói de nome",nome_do_heroi,"está no nível de Ferro")
